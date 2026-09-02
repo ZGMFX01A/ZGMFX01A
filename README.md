@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="ZGMFX01A animated profile header" />
+  <img src="assets/header-light-v2.svg" width="100%" alt="ZGMFX01A animated profile header" />
 </div>
 
 <div align="center">
@@ -19,7 +19,7 @@
   <img src="assets/sections/current-focus.svg" width="100%" alt="Current Focus" />
 </div>
 <div align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Current development focus" />
+  <img src="assets/focus-light-v2.svg" width="100%" alt="Current development focus" />
 </div>
 
 <div align="center">
