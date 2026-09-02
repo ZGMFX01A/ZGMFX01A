@@ -1,0 +1,61 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#111821"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 65) rotate(142) scale(470 285)">
+      <stop stop-color="#1F6FEB" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="110" y1="235" x2="540" y2="235" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="720" y="-120" width="570" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#glow)"/>
+
+  <g opacity="0.16" stroke="#8B949E">
+    <path d="M0 64H1200"/>
+    <path d="M0 128H1200"/>
+    <path d="M0 192H1200"/>
+    <path d="M0 256H1200"/>
+    <path d="M160 0V320"/>
+    <path d="M320 0V320"/>
+    <path d="M480 0V320"/>
+    <path d="M640 0V320"/>
+    <path d="M800 0V320"/>
+    <path d="M960 0V320"/>
+    <path d="M1120 0V320"/>
+  </g>
+
+  <g filter="url(#blur)" opacity="0.7">
+    <ellipse cx="1000" cy="85" rx="175" ry="95" fill="#1F6FEB" fill-opacity="0.14"/>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="970" cy="90" r="4" fill="#58A6FF"/>
+    <circle cx="1050" cy="135" r="3" fill="#8B949E"/>
+    <circle cx="885" cy="155" r="3" fill="#8B949E"/>
+    <path d="M885 155L970 90L1050 135L1110 92" stroke="#30363D"/>
+    <path d="M970 90L1015 38" stroke="#30363D"/>
+    <circle cx="1110" cy="92" r="3" fill="#58A6FF"/>
+    <circle cx="1015" cy="38" r="3" fill="#8B949E"/>
+  </g>
+
+  <text x="92" y="118" fill="#F0F6FC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="1">ZGMFX01A</text>
+  <text x="95" y="158" fill="#8B949E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">BACKEND DEVELOPER · INDEPENDENT BUILDER</text>
+  <rect x="95" y="187" width="470" height="2" rx="1" fill="url(#line)"/>
+  <text x="95" y="230" fill="#C9D1D9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18">Source-first software · Local AI tooling · Practical systems</text>
+  <text x="95" y="263" fill="#6E7681" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">building things I want to use myself</text>
+
+  <rect x="1015" y="246" width="96" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+  <circle cx="1035" cy="261" r="4" fill="#3FB950"/>
+  <text x="1048" y="266" fill="#8B949E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">BUILDING</text>
+</svg>
