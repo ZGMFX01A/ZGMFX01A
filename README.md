@@ -6,8 +6,8 @@
   <img src="assets/sections/selected-work.svg" width="100%" alt="Selected Work" />
 </div>
 
-<div align="center"><a href="https://github.com/ZGMFX01A/OrigRead"><img src="assets/cards-v3/origread.svg" width="49.5%" alt="OrigRead" /></a><a href="https://github.com/ZGMFX01A/OrigRead-Desktop"><img src="assets/cards-v3/origread-desktop.svg" width="49.5%" alt="OrigRead Desktop" /></a></div>
-<div align="center"><a href="https://github.com/ZGMFX01A/Wireless-Device-Battery-Monitor"><img src="assets/cards-v3/wireless-battery.svg" width="49.5%" alt="Wireless Device Battery Monitor" /></a><a href="https://github.com/ZGMFX01A/coding-tools-mcp-expand"><img src="assets/cards-v3/coding-tools-mcp.svg" width="49.5%" alt="Coding Tools MCP" /></a></div>
+<div align="center"><a href="https://github.com/ZGMFX01A/OrigRead"><img src="assets/cards-v3/origread.svg" width="50%" alt="OrigRead" /></a><a href="https://github.com/ZGMFX01A/OrigRead-Desktop"><img src="assets/cards-v3/origread-desktop.svg" width="50%" alt="OrigRead Desktop" /></a></div>
+<div align="center"><a href="https://github.com/ZGMFX01A/Wireless-Device-Battery-Monitor"><img src="assets/cards-v3/wireless-battery.svg" width="50%" alt="Wireless Device Battery Monitor" /></a><a href="https://github.com/ZGMFX01A/coding-tools-mcp-expand"><img src="assets/cards-v3/coding-tools-mcp.svg" width="50%" alt="Coding Tools MCP" /></a></div>
 
 <div align="center">
   <img src="assets/sections/current-focus.svg" width="100%" alt="Current Focus" />
