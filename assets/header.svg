@@ -18,6 +18,12 @@
       <stop offset="0.52" stop-color="#39C5CF"/>
       <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="accentSweep" x1="0" y1="0" x2="150" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#9BE9F2" stop-opacity="0.15"/>
+      <stop offset="0.7" stop-color="#E6F7FF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#39C5CF" stop-opacity="0"/>
+    </linearGradient>
     <linearGradient id="scan" x1="0" y1="0" x2="0" y2="80" gradientUnits="userSpaceOnUse">
       <stop stop-color="#58A6FF" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#58A6FF" stop-opacity="0.10"/>
@@ -30,6 +36,13 @@
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="14"/>
     </filter>
+    <filter id="lineGlow" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="accentClip">
+      <rect x="90" y="218" width="525" height="10" rx="5"/>
+    </clipPath>
   </defs>
 
   <rect x="1" y="1" width="1198" height="388" rx="24" fill="url(#bg)" stroke="#21262D"/>
@@ -75,10 +88,19 @@
   </circle>
 
   <g font-family="Segoe UI, Inter, Arial, sans-serif">
-    <text x="88" y="93" fill="#58A6FF" font-size="14" font-weight="700" letter-spacing="3">// PROFILE.NODE</text>
+    <text x="88" y="93" fill="#58A6FF" font-size="14" font-weight="700" letter-spacing="3">PROFILE.NODE</text>
     <text x="86" y="157" fill="#F0F6FC" font-size="58" font-weight="750" letter-spacing="1">ZGMFX01A</text>
     <text x="90" y="198" fill="#8B949E" font-size="17" font-weight="600" letter-spacing="3">BACKEND DEVELOPER  ·  INDEPENDENT BUILDER</text>
-    <rect x="90" y="222" width="525" height="2" rx="1" fill="url(#accent)"/>
+
+    <rect x="90" y="222" width="525" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
+    <g clip-path="url(#accentClip)" filter="url(#lineGlow)">
+      <rect x="-70" y="220" width="150" height="6" rx="3" fill="url(#accentSweep)">
+        <animate attributeName="x" values="-70;630" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <circle cx="90" cy="223" r="2.3" fill="#58A6FF" opacity="0.5">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
 
     <text x="90" y="264" fill="#C9D1D9" font-size="18">Source-first software</text>
     <text x="276" y="264" fill="#484F58" font-size="18">/</text>
