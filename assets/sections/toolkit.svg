@@ -1,15 +1,17 @@
-<svg width="1200" height="92" viewBox="0 0 1200 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="82" viewBox="0 0 1200 82" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="92"><stop stop-color="#0B1017"/><stop offset="1" stop-color="#0D1823"/></linearGradient>
-  <linearGradient id="line" x1="92" y1="0" x2="1120" y2="0"><stop stop-color="#8B5CF6"/><stop offset="0.45" stop-color="#58A6FF"/><stop offset="1" stop-color="#30363D"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="82"><stop stop-color="#FAF9FF"/><stop offset=".55" stop-color="#F7F5FF"/><stop offset="1" stop-color="#F3F6FF"/></linearGradient>
+  <linearGradient id="line" x1="400" y1="0" x2="1120" y2="0"><stop stop-color="#8B5CF6"/><stop offset=".45" stop-color="#58A6FF"/><stop offset="1" stop-color="#D0D7DE"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 14) rotate(155) scale(240 120)"><stop stop-color="#8B5CF6" stop-opacity=".11"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
   <filter id="g" x="-50%" y="-500%" width="200%" height="1100%"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
-<rect x="1" y="1" width="1198" height="90" rx="18" fill="url(#bg)" stroke="#21262D"/>
-<circle cx="45" cy="46" r="16" fill="#111A25" stroke="#8B5CF6" stroke-opacity=".6"/>
-<text x="45" y="51" text-anchor="middle" fill="#A78BFA" font-family="Segoe UI,Arial" font-size="12" font-weight="700">03</text>
-<text x="76" y="41" fill="#F0F6FC" font-family="Segoe UI,Arial" font-size="22" font-weight="700">Toolkit</text>
-<text x="76" y="64" fill="#8B949E" font-family="Segoe UI,Arial" font-size="12">The stack behind my backend, client and local AI work.</text>
-<rect x="410" y="45" width="690" height="2" rx="1" fill="url(#line)" opacity=".6"/>
-<circle cy="46" r="4" fill="#E6F7FF" filter="url(#g)"><animate attributeName="cx" values="410;1100;410" dur="9s" repeatCount="indefinite"/></circle>
-<circle cy="46" r="2.5" fill="#D8B4FE"><animate attributeName="cx" values="410;1100;410" dur="9s" repeatCount="indefinite"/></circle>
+<rect x="1" y="1" width="1198" height="80" rx="18" fill="url(#bg)" stroke="#D0D7DE"/>
+<rect x="1" y="1" width="1198" height="80" rx="18" fill="url(#glow)"/>
+<circle cx="44" cy="41" r="16" fill="#FFFFFF" fill-opacity=".72" stroke="#8B5CF6" stroke-opacity=".42"/>
+<text x="44" y="46" text-anchor="middle" fill="#7C3AED" font-family="Segoe UI,Arial" font-size="12" font-weight="700">03</text>
+<text x="76" y="37" fill="#1F2328" font-family="Segoe UI,Arial" font-size="21" font-weight="700">Toolkit</text>
+<text x="76" y="59" fill="#59636E" font-family="Segoe UI,Arial" font-size="12">The stack behind my backend, client and local AI work.</text>
+<rect x="400" y="40" width="700" height="2" rx="1" fill="url(#line)" opacity=".65"/>
+<circle cy="41" r="4" fill="#FFFFFF" filter="url(#g)"><animate attributeName="cx" values="400;1100;400" dur="9s" repeatCount="indefinite"/></circle>
+<circle cy="41" r="2.5" fill="#8B5CF6"><animate attributeName="cx" values="400;1100;400" dur="9s" repeatCount="indefinite"/></circle>
 </svg>
