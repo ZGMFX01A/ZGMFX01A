@@ -1,16 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="560" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#0B0F15"/><stop offset=".52" stop-color="#111722"/><stop offset="1" stop-color="#0A0E14"/></linearGradient>
-    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(475 30) rotate(145) scale(210 155)"><stop stop-color="#7DD3FC" stop-opacity=".34"/><stop offset="1" stop-color="#7DD3FC" stop-opacity="0"/></radialGradient>
-    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 245) rotate(-55) scale(230 150)"><stop stop-color="#4F46E5" stop-opacity=".22"/><stop offset="1" stop-color="#4F46E5" stop-opacity="0"/></radialGradient>
-    <linearGradient id="glass" x1="20" y1="10" x2="540" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".115"/><stop offset=".42" stop-color="#FFFFFF" stop-opacity=".035"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".065"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="560" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".34"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".08"/><stop offset="1" stop-color="#7DD3FC" stop-opacity=".26"/></linearGradient>
-    <linearGradient id="shine" x1="-180" y1="0" x2="60" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".48" stop-color="#FFFFFF" stop-opacity=".16"/><stop offset=".56" stop-color="#FFFFFF" stop-opacity=".03"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
-    <filter id="blur" x="-80" y="-80" width="720" height="410"><feGaussianBlur stdDeviation="28"/></filter><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter><clipPath id="clip"><rect x="8" y="8" width="544" height="234" rx="28"/></clipPath>
-  </defs>
-  <rect x="8" y="8" width="544" height="234" rx="28" fill="url(#bg)"/><g clip-path="url(#clip)"><ellipse cx="472" cy="34" rx="180" ry="120" fill="url(#a)" filter="url(#blur)"><animate attributeName="cx" values="455;500;455" dur="10s" repeatCount="indefinite"/><animate attributeName="cy" values="28;58;28" dur="8s" repeatCount="indefinite"/></ellipse><ellipse cx="95" cy="235" rx="190" ry="105" fill="url(#b)" filter="url(#blur)"><animate attributeName="cx" values="80;130;80" dur="12s" repeatCount="indefinite"/></ellipse><rect x="8" y="8" width="544" height="234" rx="28" fill="url(#glass)"/><rect x="-220" y="-30" width="170" height="330" transform="rotate(16 0 0)" fill="url(#shine)" opacity=".72"><animate attributeName="x" values="-220;720" dur="9s" repeatCount="indefinite"/></rect></g>
-  <rect x="8.5" y="8.5" width="543" height="233" rx="27.5" fill="none" stroke="url(#edge)"/><path d="M35 24H210" stroke="#FFFFFF" stroke-opacity=".16" stroke-linecap="round"/>
-  <circle cx="514" cy="38" r="5" fill="#7DD3FC"/><circle cx="514" cy="38" r="5" fill="#7DD3FC" opacity=".55" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="2.7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;.08;.55" dur="2.7s" repeatCount="indefinite"/></circle>
-  <text x="36" y="52" fill="#91A0B2" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2.4">DESKTOP · READER</text><text x="36" y="91" fill="#F6F8FA" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="27" font-weight="720">OrigRead Desktop</text><text x="36" y="126" fill="#C7D0DA" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14.3">The same source-first reading workflow, built for desktop.</text><text x="36" y="150" fill="#8D99A8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.6">Windows, macOS and Linux with parsing, translation and AI summaries.</text>
-  <rect x="36" y="192" width="72" height="26" rx="13" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-opacity=".10"/><text x="48" y="209" fill="#AEB7C4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="600">Electron</text><rect x="116" y="192" width="66" height="26" rx="13" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-opacity=".10"/><text x="128" y="209" fill="#AEB7C4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="600">React</text><rect x="190" y="192" width="70" height="26" rx="13" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-opacity=".10"/><text x="202" y="209" fill="#AEB7C4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="600">Desktop</text><rect x="268" y="192" width="66" height="26" rx="13" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-opacity=".10"/><text x="280" y="209" fill="#AEB7C4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="600">AI</text><text x="486" y="209" fill="#C9D1D9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700">OPEN ↗</text>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="560" y2="250"><stop stop-color="#FBFDFF"/><stop offset=".55" stop-color="#F7F9FE"/><stop offset="1" stop-color="#F1F5FF"/></linearGradient>
+  <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(475 30) rotate(145) scale(210 155)"><stop stop-color="#7DD3FC" stop-opacity=".22"/><stop offset="1" stop-color="#7DD3FC" stop-opacity="0"/></radialGradient>
+  <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 245) rotate(-55) scale(230 150)"><stop stop-color="#4F46E5" stop-opacity=".10"/><stop offset="1" stop-color="#4F46E5" stop-opacity="0"/></radialGradient>
+  <linearGradient id="shine" x1="-180" y1="0" x2="60" y2="250"><stop stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".50" stop-color="#FFFFFF" stop-opacity=".88"/><stop offset=".58" stop-color="#FFFFFF" stop-opacity=".10"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <filter id="blur" x="-80" y="-80" width="720" height="410"><feGaussianBlur stdDeviation="28"/></filter>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  <clipPath id="clip"><rect x="8" y="8" width="544" height="234" rx="28"/></clipPath>
+</defs>
+<rect x="8" y="8" width="544" height="234" rx="28" fill="url(#bg)" stroke="#D0D7DE"/>
+<g clip-path="url(#clip)">
+  <ellipse cx="472" cy="34" rx="180" ry="120" fill="url(#a)" filter="url(#blur)"><animate attributeName="cx" values="455;500;455" dur="10s" repeatCount="indefinite"/><animate attributeName="cy" values="28;58;28" dur="8s" repeatCount="indefinite"/></ellipse>
+  <ellipse cx="95" cy="235" rx="190" ry="105" fill="url(#b)" filter="url(#blur)"><animate attributeName="cx" values="80;130;80" dur="12s" repeatCount="indefinite"/></ellipse>
+  <rect x="-220" y="-30" width="170" height="330" transform="rotate(16 0 0)" fill="url(#shine)" opacity=".52"><animate attributeName="x" values="-220;720" dur="9s" repeatCount="indefinite"/></rect>
+</g>
+<path d="M35 24H210" stroke="#8C959F" stroke-opacity=".28" stroke-linecap="round"/>
+<circle cx="514" cy="38" r="5" fill="#55BDEB"/>
+<circle cx="514" cy="38" r="5" fill="#55BDEB" opacity=".35" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="2.7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;.05;.35" dur="2.7s" repeatCount="indefinite"/></circle>
+<g font-family="Segoe UI, Inter, Arial, sans-serif">
+  <text x="36" y="52" fill="#6E7781" font-size="11.5" font-weight="700" letter-spacing="2.4">DESKTOP · READER</text>
+  <text x="36" y="91" fill="#1F2328" font-size="27" font-weight="720">OrigRead Desktop</text>
+  <text x="36" y="126" fill="#424A53" font-size="14.3">The same source-first reading workflow, built for desktop.</text>
+  <text x="36" y="150" fill="#6E7781" font-size="13.6">Windows, macOS and Linux with parsing, translation and AI summaries.</text>
+  <g fill="#FFFFFF" stroke="#D8DEE4"><rect x="36" y="192" width="72" height="26" rx="13"/><rect x="116" y="192" width="66" height="26" rx="13"/><rect x="190" y="192" width="70" height="26" rx="13"/><rect x="268" y="192" width="66" height="26" rx="13"/></g>
+  <g fill="#57606A" font-size="11.5" font-weight="600"><text x="48" y="209">Electron</text><text x="128" y="209">React</text><text x="202" y="209">Desktop</text><text x="280" y="209">AI</text></g>
+  <text x="486" y="209" fill="#0969DA" font-size="12.5" font-weight="700">OPEN ↗</text>
+</g>
 </svg>
