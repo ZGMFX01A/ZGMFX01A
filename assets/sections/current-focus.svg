@@ -1,0 +1,15 @@
+<svg width="1200" height="92" viewBox="0 0 1200 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="92"><stop stop-color="#0B1017"/><stop offset="1" stop-color="#0D1823"/></linearGradient>
+  <linearGradient id="line" x1="92" y1="0" x2="1120" y2="0"><stop stop-color="#39C5CF"/><stop offset="0.45" stop-color="#58A6FF"/><stop offset="1" stop-color="#30363D"/></linearGradient>
+  <filter id="g" x="-50%" y="-500%" width="200%" height="1100%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect x="1" y="1" width="1198" height="90" rx="18" fill="url(#bg)" stroke="#21262D"/>
+<circle cx="45" cy="46" r="16" fill="#111A25" stroke="#39C5CF" stroke-opacity=".6"/>
+<text x="45" y="51" text-anchor="middle" fill="#39C5CF" font-family="Segoe UI,Arial" font-size="12" font-weight="700">02</text>
+<text x="76" y="41" fill="#F0F6FC" font-family="Segoe UI,Arial" font-size="22" font-weight="700">Current Focus</text>
+<text x="76" y="64" fill="#8B949E" font-family="Segoe UI,Arial" font-size="12">What is getting most of my attention right now.</text>
+<rect x="410" y="45" width="690" height="2" rx="1" fill="url(#line)" opacity=".6"/>
+<circle cy="46" r="4" fill="#E6F7FF" filter="url(#g)"><animate attributeName="cx" values="410;1100;410" dur="8s" repeatCount="indefinite"/></circle>
+<circle cy="46" r="2.5" fill="#9BE9F2"><animate attributeName="cx" values="410;1100;410" dur="8s" repeatCount="indefinite"/></circle>
+</svg>
